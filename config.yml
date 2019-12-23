@@ -15,8 +15,6 @@ dotfiles_files:
   - .functions
   - .gitignore
   - .gitconfig
-  - .inputrc
-  - .osx
   - .vimrc
 
 homebrew_installed_packages:
@@ -24,6 +22,7 @@ homebrew_installed_packages:
   - asciinema
   - awscli
   - bash-completion
+  - docker-completion
   - git
   - go
   - gpg
@@ -32,6 +31,8 @@ homebrew_installed_packages:
   - iperf
   - mysql
   - postgresql
+  - python
+  - python@2
   - sqlite
   - nmap
   - ssh-copy-id
@@ -39,6 +40,7 @@ homebrew_installed_packages:
   - openssl
   - pv
   - terraform
+  - tmux
   - vim
   - wget
   - wrk
@@ -46,6 +48,7 @@ homebrew_installed_packages:
 homebrew_taps:
   - homebrew/core
   - homebrew/cask
+  - homebrew/cask-fonts
 
 homebrew_cask_appdir: /Applications
 homebrew_cask_accept_external_apps: true
@@ -60,6 +63,7 @@ homebrew_cask_apps:
   - evernote
   - franz
   - firefox
+  - font-hack-nerd-font
   - google-backup-and-sync
   - google-chat
   - google-chrome
@@ -72,11 +76,20 @@ homebrew_cask_apps:
   - spectacle
   - spotify
   - sublime-text
+  - suspicious-package
   - texmaker
   - the-unarchiver
-  - { name: virtualbox, install_options:"debug,appdir=/Applications" }
+  - { name: virtualbox, install_options:"debug,appdir=/Applications" } # you might need to allow software from Oracle America Inc (System Preferences > Security > General)
   - vlc
   - whatsapp
+  # improve Mac Finder Quick Look functionalities
+  - qlcolorcode
+  - qlstephen
+  - qlmarkdown
+  - quicklook-json
+  - qlprettypatch
+  - quicklook-csv
+  - webpquicklook
 
 # See `geerlingguy.mas` role documentation for usage instructions.
 mas_installed_apps: [{ id: 937984704, name: "Amphetamine" }]
