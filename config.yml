@@ -8,7 +8,7 @@ configure_osx: no
 
 dotfiles_repo: https://github.com/jeroen-vankelecom/dotfiles.git
 dotfiles_repo_accept_hostkey: yes
-dotfiles_repo_local_destination: ~/Source/dotfiles
+dotfiles_repo_local_destination: ~/Configuration/dotfiles
 dotfiles_files:
   - .zshrc
   - .aliases
