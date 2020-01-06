@@ -39,6 +39,7 @@ homebrew_installed_packages:
   - cowsay
   - openssl
   - pv
+  - s3cmd
   - terraform
   - tmux
   - vim
@@ -57,6 +58,7 @@ homebrew_group: "504" # brew group
 homebrew_cask_apps:
   - atom
   - basictex
+  - cloudmounter
   - dash
   - docker
   - dropbox
