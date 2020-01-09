@@ -71,6 +71,7 @@ homebrew_cask_apps:
   - google-chrome
   - google-hangouts
   - iterm2
+  - keybase
   - licecap
   - postman
   - sequel-pro
