@@ -61,6 +61,7 @@ homebrew_cask_apps:
   - cloudmounter
   - dash
   - docker
+  - drawio
   - dropbox
   - evernote
   - franz
@@ -82,6 +83,7 @@ homebrew_cask_apps:
   - suspicious-package
   - texmaker
   - the-unarchiver
+  - tunnelblick
   - { name: virtualbox, install_options:"debug,appdir=/Applications" } # you might need to allow software from Oracle America Inc (System Preferences > Security > General)
   - vlc
   - whatsapp
