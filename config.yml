@@ -30,6 +30,7 @@ homebrew_installed_packages:
   - httpie
   - iperf
   - mysql
+  - node
   - postgresql
   - python
   - python@2
@@ -40,6 +41,7 @@ homebrew_installed_packages:
   - openssl
   - pv
   - s3cmd
+  - telnet
   - terraform
   - tmux
   - vim
@@ -56,7 +58,7 @@ homebrew_cask_accept_external_apps: true
 homebrew_group: "504" # brew group
 
 homebrew_cask_apps:
-  - atom
+  - aws-vault
   - basictex
   - cloudmounter
   - dash
@@ -64,9 +66,9 @@ homebrew_cask_apps:
   - drawio
   - dropbox
   - evernote
-  - franz
   - firefox
   - font-hack-nerd-font
+  - goland
   - google-backup-and-sync
   - google-chat
   - google-chrome
@@ -76,15 +78,14 @@ homebrew_cask_apps:
   - licecap
   - postman
   - sequel-pro
-  - skitch
   - spectacle
   - spotify
-  - sublime-text
   - suspicious-package
   - texmaker
   - the-unarchiver
   - tunnelblick
   - { name: virtualbox, install_options:"debug,appdir=/Applications" } # you might need to allow software from Oracle America Inc (System Preferences > Security > General)
+  - visual-studio-code
   - vlc
   - whatsapp
   # improve Mac Finder Quick Look functionalities
