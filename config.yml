@@ -12,6 +12,7 @@ dotfiles_repo_local_destination: ~/Configuration/dotfiles
 dotfiles_files:
   - .zshrc
   - .aliases
+  - .autocompletion
   - .functions
   - .gitignore
   - .gitconfig
@@ -52,6 +53,7 @@ homebrew_taps:
   - homebrew/core
   - homebrew/cask
   - homebrew/cask-fonts
+  - sambadevi/powerlevel9k
 
 homebrew_cask_appdir: /Applications
 homebrew_cask_accept_external_apps: true
@@ -77,6 +79,7 @@ homebrew_cask_apps:
   - keybase
   - licecap
   - postman
+  - powerlevel9k
   - sequel-pro
   - spectacle
   - spotify
