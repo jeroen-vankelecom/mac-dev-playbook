@@ -23,6 +23,7 @@ homebrew_installed_packages:
   - asciinema
   - awscli
   - bash-completion
+  - coreutils
   - docker-completion
   - git
   - go
@@ -35,6 +36,7 @@ homebrew_installed_packages:
   - postgresql
   - python
   - python@2
+  - pipenv
   - sqlite
   - nmap
   - ssh-copy-id

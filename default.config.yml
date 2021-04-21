@@ -19,6 +19,7 @@ dotfiles_files:
 homebrew_installed_packages:
   # - ansible # Installed via Pip.
   - autoconf
+  - awk
   - bash-completion
   - doxygen
   - gettext
@@ -35,6 +36,7 @@ homebrew_installed_packages:
   - nmap
   - node
   - nvm
+  - pre-commit
   - php
   - ssh-copy-id
   - cowsay
